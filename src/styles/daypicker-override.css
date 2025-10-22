@@ -1,0 +1,11 @@
+/* Ensure react-day-picker dropdowns (year/month) appear above other UI */
+.rdp-dropdown,
+.rdp-dropdown__select,
+.rdp-nav__dropdown {
+  z-index: 2000 !important;
+}
+
+/* Make sure the month/year dropdowns are not clipped */
+.rdp-months {
+  overflow: visible !important;
+}

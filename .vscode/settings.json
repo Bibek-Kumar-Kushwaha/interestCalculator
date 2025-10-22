@@ -1,0 +1,9 @@
+{
+  "explorer.openEditors.visible": 9,
+  "explorer.compactFolders": false,
+  "workbench.sideBar.location": "left",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true
+  }
+}

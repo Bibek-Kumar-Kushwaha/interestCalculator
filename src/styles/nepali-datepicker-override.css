@@ -1,0 +1,34 @@
+/* Ensure the nepali datepicker popup renders above most UI */
+.nepali-datepicker-popup,
+.npd-calendar,
+.nepali-datepicker-reactjs-popup {
+  z-index: 2000 !important;
+  position: absolute !important;
+}
+
+/* Input visuals to match shadcn inputs */
+.nepali-datepicker-input,
+.npd-input,
+input.npd-input {
+  width: 100% !important;
+  padding: 0.5rem 0.75rem !important;
+  padding-left: 2.5rem !important;
+  border-radius: 0.5rem !important;
+  border: 1px solid var(--border) !important;
+  background: var(--background) !important;
+  color: var(--foreground) !important;
+  font-size: 0.875rem !important;
+}
+
+/* placeholder */
+.nepali-datepicker-input::placeholder,
+.npd-input::placeholder {
+  color: rgba(100,100,110,0.7) !important;
+}
+
+/* small adjustments for popup */
+.npd-calendar,
+.nepali-datepicker-popup {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12) !important;
+  border-radius: 0.5rem !important;
+}
